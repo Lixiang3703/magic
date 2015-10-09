@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Item0</key>
+	<dict>
+		<key>loginStatus</key>
+		<string>KKLoginStatusUnknown</string>
+	</dict>
+	<key>Item1</key>
+	<dict>
+		<key>loginStatus</key>
+		<string>KKLoginStatusLogin</string>
+		<key>request</key>
+		<string>KKLoginRequestModel</string>
+	</dict>
+	<key>Item2</key>
+	<dict/>
+	<key>Item3</key>
+	<string></string>
+</dict>
+</plist>

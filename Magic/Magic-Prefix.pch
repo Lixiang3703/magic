@@ -1,0 +1,26 @@
+//
+//  Magic-Prefix.pch
+//  Magic
+//
+//  Created by lixiang on 15/4/7.
+//  Copyright (c) 2015年 lixiang. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "DDCoreGlobal.h"
+#import "DDUIGlobal.h"
+#import "LBUIGlobal.h"
+#import "YYCommonGlobal.h"
+#import "KKCommonGlobal.h"
+#endif
+
+#define KKLog(x) NSLog(@"%s:line%d > %@", __func__, __LINE__, x);
